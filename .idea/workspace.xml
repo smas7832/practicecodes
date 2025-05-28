@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5109d3b-2fca-4a78-a8da-671d43418c7a" name="Changes" comment="intial pushAdd multiple temporary drive upload files&#10;&#10;Created numerous temporary `.tmp.driveupload` files and a new `sample.txt` file. These additions likely support a bulk upload or data storage process.">
+      <change afterPath="$PROJECT_DIR$/PJCTS/Paxsenix.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/file2.c" beforeDir="false" afterPath="$PROJECT_DIR$/IO/file2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PJCTS/music_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/PJCTS/music_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-manipulation/fopen.c" beforeDir="false" afterPath="$PROJECT_DIR$/file-manipulation/fopen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sample.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;smas7832&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/smas7832/practicecodes.git&quot;,
+    &quot;accountId&quot;: &quot;bd7f6544-3cc6-4839-ac4f-fce0e2a3294c&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Cpp/first.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/file-manipulation/fopen.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2xD8U0hqOI3hfjvkpomJ3Ubh1sJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.addition3.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.file2.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.fopen.c.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;repository&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Downloads\Codes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.fopen.c">
+    <configuration name="file2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Codes" TARGET_NAME="file2.c" CONFIG_NAME="file2.c">
+      <option name="sourceFile" value="IO\file2.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fopen.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Codes" TARGET_NAME="fopen.c" CONFIG_NAME="fopen.c">
+      <option name="sourceFile" value="file-manipulation\fopen.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.file2.c" />
+        <item itemvalue="C/C++ File.fopen.c" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5109d3b-2fca-4a78-a8da-671d43418c7a" name="Changes" comment="" />
+      <created>1747461296509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747461296509</updated>
+      <workItem from="1747461298138" duration="97000" />
+      <workItem from="1747461408919" duration="771000" />
+      <workItem from="1747463848744" duration="454000" />
+      <workItem from="1747464388489" duration="844000" />
+      <workItem from="1747465266318" duration="9000" />
+      <workItem from="1747465302493" duration="677000" />
+      <workItem from="1747576896831" duration="2250000" />
+      <workItem from="1747924294036" duration="194000" />
+      <workItem from="1747924523607" duration="867000" />
+    </task>
+    <task id="LOCAL-00001" summary="intial push">
+      <option name="closed" value="true" />
+      <created>1747461448429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747461448429</updated>
+    </task>
+    <task id="LOCAL-00002" summary="intial push">
+      <option name="closed" value="true" />
+      <created>1747461599592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747461599592</updated>
+    </task>
+    <task id="LOCAL-00003" summary="intial push">
+      <option name="closed" value="true" />
+      <created>1747461950092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747461950092</updated>
+    </task>
+    <task id="LOCAL-00004" summary="intial pushAdd multiple temporary drive upload files&#10;&#10;Created numerous temporary `.tmp.driveupload` files and a new `sample.txt` file. These additions likely support a bulk upload or data storage process.">
+      <option name="closed" value="true" />
+      <created>1747462112904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747462112904</updated>
+    </task>
+    <task id="LOCAL-00005" summary="intial pushAdd multiple temporary drive upload files&#10;&#10;Created numerous temporary `.tmp.driveupload` files and a new `sample.txt` file. These additions likely support a bulk upload or data storage process.">
+      <option name="closed" value="true" />
+      <created>1747462119320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747462119320</updated>
+    </task>
+    <task id="LOCAL-00006" summary="intial pushAdd multiple temporary drive upload files&#10;&#10;Created numerous temporary `.tmp.driveupload` files and a new `sample.txt` file. These additions likely support a bulk upload or data storage process.">
+      <option name="closed" value="true" />
+      <created>1747462124272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747462124272</updated>
+    </task>
+    <task id="LOCAL-00007" summary="intial pushAdd multiple temporary drive upload files&#10;&#10;Created numerous temporary `.tmp.driveupload` files and a new `sample.txt` file. These additions likely support a bulk upload or data storage process.">
+      <option name="closed" value="true" />
+      <created>1747466733422</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747466733422</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="intial push" />
+    <MESSAGE value="intial pushAdd multiple temporary drive upload files&#10;&#10;Created numerous temporary `.tmp.driveupload` files and a new `sample.txt` file. These additions likely support a bulk upload or data storage process." />
+    <option name="LAST_COMMIT_MESSAGE" value="intial pushAdd multiple temporary drive upload files&#10;&#10;Created numerous temporary `.tmp.driveupload` files and a new `sample.txt` file. These additions likely support a bulk upload or data storage process." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/addition3.c</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PJCTS/music_player.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
