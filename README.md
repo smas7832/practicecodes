@@ -31,4 +31,4 @@ To-Do.
 
 
 
-[SMAS] - [[GitHub Profile](https://github.com/smas783)]
+SMAS - [GitHub Profile](https://github.com/smas783)
