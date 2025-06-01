@@ -1,4 +1,4 @@
-# [Practice code]
+# Practice code
 
 A repository dedicated to practicing and honing my programming skills.  This contains various coding exercises, small projects, and explorations of different concepts.
 
@@ -31,4 +31,4 @@ To-Do.
 
 
 
-[SMAS] - [[GitHub Profile](https://github.com/smas783)]
+SMAS - [GitHub Profile](https://github.com/smas783)
