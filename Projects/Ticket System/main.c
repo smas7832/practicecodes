@@ -7,3 +7,16 @@
                 2-Ewallet system
                     -Ability to deposit, withdraw
  */
+#include <stdio.h>
+
+int tktsstm(){
+
+
+
+}
+
+int main(){
+
+
+
+}
