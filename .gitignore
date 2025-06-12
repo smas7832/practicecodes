@@ -149,3 +149,15 @@
 .idea/.name
 Python/HuggingF Whisper.py
 sample.txt
+Projects/Ticket System/.vscode/launch.json
+Projects/Ticket System/.vscode/settings.json
+Projects/Ticket System/.vscode/tasks.json
+Projects/Ticket System/.vscode/launch.json
+Projects/Ticket System/.vscode/settings.json
+Projects/.vscode/settings.json
+.idea/.gitignore
+.gitignore
+sample.txt
+*.exe
+*.txt
+*.c~
