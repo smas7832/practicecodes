@@ -1,24 +1,37 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 /*
  Features:
- 	. Store tasks in an array of structs (each task has a description and status).
- 	. Implement a menu-driven interface (e.g., 1 to add, 2 to delete, 3 to view, etc.).
- 	. Save tasks to a file and load them on startup.
+	. Store tasks in an array of structs (each task has a description and status).
+	. Implement a menu-driven interface (e.g., 1 to add, 2 to delete, 3 to view, etc.).
+	. Save tasks to a file and load them on startup.
 */
-typedef enum {DONE, PENDING, NSET}status;
-	
-typedef struct{
+typedef enum
+{
+	DONE,
+	PENDING,
+	NSET
+} status;
+
+typedef struct
+{
 	int Tasknum;
 	char task[50];
 	status status;
-	}task;
+} task;
 
-int main(){
-	task tasks[5];
-	for (int i=0;i<5;i++){
-	tasks[i].Tasknum = i;
-	printf("Task ID: %d", tasks[i].Tasknum);
-	tasks[i].status = NSET;
-	printf("Task ID: %s", tasks[i].status);
+int main()
+{
+	FILE *taskf;
+	taskf = fopen("task", "r+");
+	
+	task *tasks;
+	tasks = malloc(5 * sizeof(task));
+	for (int i = 0; i < 5; i++)
+	{
+		(tasks + i) ->Tasknum = i;
+		(tasks + i) -> status = NSET;
 	}
+
 }
+
