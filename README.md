@@ -6,7 +6,7 @@ A repository dedicated to practicing and honing my programming skills.  This con
 
 *   [Description](#description)
 *   [Purpose](#purpose)
-*   [Contents](#contents)
+*   [To-Do](#To-Do)
 *   [Author](#author)
 
 ## Description
@@ -25,10 +25,6 @@ The main purpose of this repository is to:
 *   Serve as a reference for future projects.
 
 
-## Contents
-
-To-Do.
-
-
-
-SMAS - [GitHub Profile](https://github.com/smas783)
+## C Program Projects
+### 1. Ticket System
+  - Features:
