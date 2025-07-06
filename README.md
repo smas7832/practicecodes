@@ -3,11 +3,7 @@
 A repository dedicated to practicing and honing my programming skills.  This contains various coding exercises, small projects, and explorations of different concepts.
 
 ## Table of Contents
-
-*   [Description](#description)
-*   [Purpose](#purpose)
-*   [To-Do](#To-Do)
-*   [Author](#author)
+[[_TOC_]]
 
 ## Description
 
