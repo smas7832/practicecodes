@@ -27,4 +27,16 @@ The main purpose of this repository is to:
 
 ## C Program Projects
 ### 1. Ticket System
-  - Features:
+### Features:
+Ticket
+-
+* [ ] Ticket Booking
+* [ ] Ticket Cancellation
+* [ ] Ticket Postpone
+* [ ] Train Schedule
+
+Wallet
+-
+* [ ] Deposit Money
+* [ ] Withdraw Money
+* [ ] Refund from Ticket cancellation
