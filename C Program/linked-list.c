@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 // Singly Linked list
-void* HEAD;
 
 typedef struct{
 	int data;
 	void* next;
 }nodes;
+nodes* HEAD;
 
 //fn for creating node
 void *createNode(int value, nodes *node){
@@ -14,36 +14,56 @@ void *createNode(int value, nodes *node){
 	node->next = &newNode;
 	newNode->data = value;
 	newNode->next = NULL;
-	return &newNode;
+	return newNode;
 }
 
 //fn to delete node
-void *deleteNode(nodes * node, nodes *pvsNode){
+int deleteNode(nodes * node, nodes *pvsNode){
 	 pvsNode->next = node->next;
 	 free(node);
 }
 
+//fn to print list
+int printlist(nodes *HEAD){
+	nodes *p = HEAD;
+	while(p != NULL) {
+		printf(" %d ",p->data);
+		p = p->next;
+		if(p->next = NULL)
+			{return 0;}
+	}
+}
+
 int main(){
 	nodes *node[5];
-
-	for (int i = 0; i<5; i++)
-	{
-		node[i] = malloc(sizeof(nodes));
-		printf("\n node %d : %p", i, node[i]);
+	for(int i =0; i<5;i++){
+		node[i] = malloc(5* sizeof(nodes));
 	}
-	deleteNode(node[4], node[3]);
-	printf("\n deleted node : %p", node[4]);
 
-	HEAD = &node[0];
-	printf("\n HEAD : %p", HEAD);
-	printf("\n NODE1 : %p", node[0]);
+	HEAD->next = &node;
+	int choice = 1;
+	while (choice != 0){
+		printf("\n1.Print Nodes In the list\n2.delete a node\n3.insert a node\n");
+		printf("\n^___________________________\n");
+		printf("Select operation to peform:");
+		scanf("%d",&choice);
+		switch(choice){
+			case 1:
+				printlist(HEAD);
+			case 2:
+				deleteNode(node[4], node[3]);
+				printf("\noperation successful");
+			case 3:
+				printf("Enter Node Value and position\n");
+				int value; scanf("%d", &value);
+				// insertNode(node)
+			case 4:
+				exit;
+			default: printf("\nInvalid operation\n");
+		}
+	}
 	// node[1]->next = createNode(1);
-	for(int i = 1; i<5;i++){
-		node[i] = createNode(i, node[i-1]);
-		printf("\n node1 : %p", node[i]);
-		printf("\n HEAD : %p", node);
-}
-// for(int i = 0; i<5; i++){
-// 	free(node[i]);
-// 	}
+	// for(int i = 1; i<5;i++){
+	// 	printf("\n node1 : %p", node[i]);
+	// 	printf("\n HEAD : %p", node);
 }
