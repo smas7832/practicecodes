@@ -18,7 +18,7 @@ void *createNode(int value, nodes *node){
 }
 
 //fn to delete node
-int deleteNode(nodes * node, nodes *pvsNode){
+void deleteNode(nodes * node, nodes *pvsNode){
 	 pvsNode->next = node->next;
 	 free(node);
 }
@@ -29,9 +29,10 @@ int printlist(nodes *HEAD){
 	while(p != NULL) {
 		printf(" %d ",p->data);
 		p = p->next;
-		if(p->next = NULL)
-			{return 0;}
+		if(p->next == NULL)
+			{return 1;}
 	}
+	return 0;
 }
 
 int main(){
@@ -58,7 +59,7 @@ int main(){
 				int value; scanf("%d", &value);
 				// insertNode(node)
 			case 4:
-				exit;
+				return 0;
 			default: printf("\nInvalid operation\n");
 		}
 	}
