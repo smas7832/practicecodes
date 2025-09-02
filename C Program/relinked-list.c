@@ -5,11 +5,15 @@ struct node{
   struct node *next;
 };
 
-struct node HEAD;
+void newNode(int data, struct node *head){
+  struct node *temp = HEAD;
+  while (temp->next != NULL){
+    temp = temp->next;
+  }
+  struct node *node =(struct node *)malloc(sizeof(struct node))
+}
 
  int main(){
-   struct node node1;
-   HEAD = &node1;
-   node1.data = 10;
-   printf("Node1:\n\tAdress: %p\n\tData: %d", HEAD, node1.data);
+
+
 }
