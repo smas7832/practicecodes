@@ -83,14 +83,14 @@ void printList(struct node *HEAD){
   }
   int i = 0;
   struct node *temp = HEAD;
-  printf("Node\t\tData\t\tAdress\n");
+  printf("Node\tData\tAdress\t\t\tnextNode\n");
 
   while(temp !=NULL){
-    printf("%d\t\t%d\t\t%p\n",i,temp->data,temp);
+    printf("%d\t%d\t%p\t\t%p\n",i,temp->data,temp,temp->next);
     temp = temp->next;
     i +=1;
   }
-  printf("NULL\n");
+  printf("\t-----------------END-----------------\n");
 }
 
  int main(int argc, char *argv[]){
@@ -99,7 +99,7 @@ void printList(struct node *HEAD){
    int target = atoi(argv[2]);
    randomSeed();
    for(int i = 0; i<n; i++){
-     insertNode(randomInt(i,50), &HEAD);
+     insertNode(randomInt(i,i*10), &HEAD);
    }
   printList(HEAD);
   int result = searchNode(HEAD, target);
