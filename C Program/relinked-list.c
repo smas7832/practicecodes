@@ -90,7 +90,7 @@ void printList(struct node *HEAD){
     temp = temp->next;
     i +=1;
   }
-  printf("\t-----------------END-----------------\n");
+  printf("\n\t-----------------END-----------------\n");
 }
 
  int main(int argc, char *argv[]){
