@@ -149,7 +149,6 @@
 .idea/.name
 Python/HuggingF Whisper.py
 sample.txt
-*/.vscode/
 .idea/.gitignore
 .gitignore
 sample.txt
@@ -160,3 +159,4 @@ sample.txt
 *.txt
 sample.txt
 *.kate-swp
+.vscode\

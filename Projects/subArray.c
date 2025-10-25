@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+
+int main(){
+	const int array[5] = {1,2,3,4,5};
+	int subarr[5][(5*6)/2];
+
+	
+	for(int i =0; i<(5*6)/2; i++){
+		for(int j=0; j<5; j++){
+			subarr[j][i] = array[i];
+			printf("%d\t",subarr[i][j]);
+			}	
+		}
+	
+	for(int i =0; i<(5*6)/2; i++){
+		for(int j=0; j<5; j++){
+			printf("%d\t",subarr[i][j]);
+			}	
+		printf("\n");
+		}
+}

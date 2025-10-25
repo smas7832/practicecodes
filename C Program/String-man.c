@@ -6,13 +6,15 @@
         2.Count Vowels
 */
 
-int stlencount(char text[]){
-int count=0, i=0;
-while (text[i] != '\0'){
-count++;
-i++;
-}
-return count;
+int stlencount(char text[])
+{
+    int count = 0, i = 0;
+    while (text[i] != '\0')
+    {
+        count++;
+        i++;
+    }
+    return count;
 }
 
 int main()
@@ -60,4 +62,3 @@ int main()
         printf("Number of vowels: %d", counter);
     }
 }
-
