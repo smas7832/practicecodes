@@ -1,26 +1,79 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct element{
+struct element {
   int data;
-  struct element *nextElement;
+  struct element *Below;
 };
-struct element* push(int data /*struct element *previous*/){
-    struct element *newElement = (struct element *) malloc(sizeof (struct element));
-    newElement->data = data;
-    newElement->nextElement = NULL;
-    return newElement;
+
+void push(struct element **top, int data) {
+  struct element *newElement = (struct element *)malloc(sizeof(struct element));
+
+  if (newElement == NULL) {
+    printf("Memory allocation failed! Cannot push data.\n");
+    return;
+  }
+  newElement->data = data;
+  newElement->Below = *top;
+  *top = newElement;
 }
 
-// int push(int data, struct element *top){
-//
-//
-// }
+void pop(struct element **top) {
+  if ((*top) == NULL) {
+    printf("\nStack is Empty - Cannot pop.");
+    return;
+  }
 
-int main(){
-  struct element *top;
-  top-> data = 10;
-  top->nextElement = push(17);
-  printf("stack1: %d, \n stack2: %d", top->data, top->nextElement->data);
+  struct element *temp = *top;
+  *top = temp->Below;
+  free(temp);
+  printf("\nSuccessfully popped TOP element.");
+}
+
+void printStack(struct element *top) {
+  if (top == NULL) {
+    printf("Stack is Empty\n");
+    return;
+  }
+
+  struct element *temp = top;
+  do {
+    printf("Data : %d\n", temp->data);
+    temp = temp->Below;
+  } while (temp != NULL);
+}
+
+void freeStack(struct element **top) {
+  struct element *current = *top;
+  struct element *next;
+
+  while (current != NULL) {
+    next = current->Below;
+    free(current);
+    current = next;
+  }
+  *top = NULL;
+}
+
+int main(int argc, char *argv[]) {
+
+  if (argc < 2) {
+    printf("Usage: %s <integer_value>\n", argv[0]);
+    return 1;
+  }
+
+  int input = atoi(argv[1]);
+  int iterration = atoi(argv[2]);
+  struct element *top = NULL;
+
+  printf("\n--- Start Stack Operations ---");
+
+  for (int i = 0; i < iterration; i++) {
+    push(&top, input * i + 1);
+  }
+  printStack(top);
+  pop(&top);
+  printStack(top);
+  freeStack(&top);
   return 0;
 }

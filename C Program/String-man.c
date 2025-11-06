@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <strings.h>
 
 /* Basic String Manipulation Program
         1.Reverse the string
@@ -24,7 +24,7 @@ int main()
     int choice;
 
     printf("Enter Your string:\t");
-    scanf("%s", &text);
+    gets( text);
 
     printf("\n\t1.Reverse String\n\t2.Count Vowels");
     printf("\nSelect action to perform:\t");
