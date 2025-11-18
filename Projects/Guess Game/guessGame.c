@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /*To-Dos:
 	. Create a hint system - DONE
-	. Implement logic for dynamic Hints - PENDING 
+	. Implement logic for dynamic Hints - PENDING
 	. Create game logic - DONE
 ----------------------------------------
 The computer picks a random number between Min and max range. The user has to guess it. The computer provides hints like "Too high!" or "Too low!".
