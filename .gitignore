@@ -160,3 +160,4 @@ sample.txt
 sample.txt
 *.kate-swp
 .vscode\
+Projects/out.c

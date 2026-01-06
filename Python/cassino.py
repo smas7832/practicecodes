@@ -24,7 +24,7 @@ def deposit():
 
 def get_lines():
     while True:
-        line= input("Enter No Of lines, Choose between 1-" + str(MAX_LINES) + "?: ")
+        line= input("Enter No Of lines, Choose between 1-" + str(MAX_LINES) + ": ")
         if line.isdigit():
             line=int(line)
             if 1 <= line <= MAX_LINES:
@@ -49,14 +49,14 @@ reels = {
     2:["A", "B", "C"],
     3:["A", "B", "C"],
     4:["A", "B", "C"]
-}
+    }
 
 
 def spin():
     output=[]
-    for _ in len(reels-1):
-        spin_result = [random.choice(reels[i]) for i in range(3)]
-        output.append(spin_result)
+    for i in range(1,4):
+        output.append([random.choice(reels[i]) for i in range(1,4)])
+        # output.append(spin_result)
     return output
 
 
@@ -70,14 +70,17 @@ def main():
             print(f"Insufficient balance (Balnce is ${balance})")
         else: break
     print(f"Bet Placed on {line} lines of ${bet}, Total ${total_bet}")
-    spin = spin()
+    spin_result = []
+    spin_result.append(spin())
     print("spinning")
-
+    
+    print(spin_result[i] for i in range(len(spin_result)))
+            
     if spin[0] == spin[1] == spin[2] == spin [3]:
         for _ in range(spin):
-            print(f"{spin[0]} | {spin[1]} | {spin[2]} | {spin[3]}")
             print("You've Won The Bet")
     else:
-        print(f"{spin[0]} | {spin[1]} | {spin[2]} | {spin[3]}")
+        # print(f"{spin[0]} | {spin[1]} | {spin[2]} | {spin[3]}")
         print("Try Again")
 
+main()
