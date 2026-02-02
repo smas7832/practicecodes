@@ -161,3 +161,4 @@ sample.txt
 *.kate-swp
 .vscode\
 Projects/out.c
+.vscode/launch.json
