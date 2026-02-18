@@ -22,10 +22,10 @@ int main(int argc, char *argv[]) {
   node *HEAD = NULL;
   printlist(HEAD);
 
+
   for (int i = 0; i < input; i++) {
     insertNode(&HEAD, randomInt(input, input * 5));
   }
-
   int *array = (int *)malloc(listlen(HEAD) * sizeof(int));
   array = listtoarr(HEAD);
   int length = listlen(HEAD);

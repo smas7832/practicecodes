@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Safely frees a pointer
+// Safely frees a pointer
 #define SAFE_FREE(p) \
     do {             \
         free(p);     \
@@ -16,38 +16,26 @@ typedef struct node {
     struct node* nextNode;
 } node;
 
-/// @brief inset a node to end of list
-/// @param HEAD_ref pointer->pointer->HEAD_NODE
-/// @param data 
-int insertNode(node **HEAD_ref, int data);
+//inset a new node to end of list
+int insertNode(node** HEAD_ref, int data);
 
-/// @brief deletes a linked list
-/// @param HEAD_ref pointer->pointer->HEAD_NODE
-/// @return 
+//deletes a linked list
+//return 0:successfully deleted the list
 int deleteList(node** HEAD_ref);
 
-/// @brief Deletes a node associated with \@param data
-/// @param HEAD_ref 
-/// @param data 
-/// @return 
+//Deletes a node associated with data
 int deleteNode(node** HEAD_ref, int data);
 
-/// @brief 
-/// @param HEAD 
+//prints list in sequential order
 void printlist(node* HEAD);
 
-/// @brief 
-/// @param HEAD 
-/// @return 
+// returns an array pointer of given linked list
 int* listtoarr(node* HEAD);
 
-/// @brief 
-/// @param HEAD 
-/// @return 
+//returns number of elements in the list
 int listlen(node* HEAD);
 
 #endif
-
 
 #ifdef LINKEDLIST_IMPLEMENTATION
 
@@ -96,15 +84,14 @@ int deleteList(node** HEAD_ref) {
 }
 
 int deleteNode(node** HEAD_ref, int data) {
-    if ((*HEAD_ref) == NULL) return -1;
-    node* temp;
+    if ((*HEAD_ref) == NULL || (*HEAD_ref)->data != data) return -1;
 
-    temp = (*HEAD_ref);
+    node* temp;
     if ((*HEAD_ref)->data == data) {
+        temp = (*HEAD_ref);
         (*HEAD_ref) = (*HEAD_ref)->nextNode;
         SAFE_FREE(temp);
-        temp = NULL;
-        return 1;
+        return 0;
     }
     node* saved_node;
     while (temp->data != data && temp->nextNode != NULL) {
@@ -116,7 +103,7 @@ int deleteNode(node** HEAD_ref, int data) {
         saved_node->nextNode = temp->nextNode;
         SAFE_FREE(temp);
     }
-    return 1;
+    return 0;
 }
 
 void printlist(node* HEAD) {
@@ -124,9 +111,8 @@ void printlist(node* HEAD) {
         printf("\nEmpty List\n");
         return;
     }
-    printf("\n\t╔════════════════════════════╗\n");
-    printf("\t║   Linked List Elements     ║\n");
-    printf("\t╚════════════════════════════╝\n");
+    printf("\n\t\n");
+    printf("\tLinked List Elements\n");
     printf("\n\tIndex\t-\tData\n");
 
     node* temp = HEAD;
